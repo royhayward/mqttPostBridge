@@ -1,0 +1,24 @@
+{
+  "name": "mqttpostbridge",
+  "version": "1.0.0",
+  "description": "I need to receive events via an HTTP POST and transfer them to my MQTT server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royhayward/mqttPostBridge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royhayward/mqttPostBridge/issues"
+  },
+  "homepage": "https://github.com/royhayward/mqttPostBridge#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "mqtt": "^5.10.0"
+  }
+}
